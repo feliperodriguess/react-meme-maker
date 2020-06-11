@@ -8,4 +8,17 @@ export default createGlobalStyle `
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
   }
+
+  body {
+    background: #eee;
+  }
+
+  button, input {
+    outline: 0;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
 `;

@@ -5,8 +5,8 @@ import GlobalStyle from './styles/global';
 function App() {
   return (
     <>
-    <GlobalStyle />
-    <h1>Meme Maker</h1>
+      <GlobalStyle />
+      <h1>Meme Maker</h1>
     </>
   );
 }

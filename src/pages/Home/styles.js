@@ -16,6 +16,7 @@ export const Card = styled.div `
   padding: 20px;
   margin-top: 20px;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.20);
+  margin-bottom : 20px;
 
   h2 {
     font-size: 22px;
@@ -37,9 +38,13 @@ export const Templates = styled.div `
   align-items: center;
 
   button {
-    border: 0;
     background: transparent;
     margin-right: 10px;
+    border: 2px solid transparent;
+
+    &.selected {
+      border-color: #4395D8;
+    }
 
     img {
       width: 53px;
@@ -64,11 +69,12 @@ export const Button = styled.button `
   width: 100%;
   height: 40px;
   border-radius: 8px;
-  border: 0;
   background: #4395D8;
   color: #fff;
   font-weight: bold;
   transition: background 0.2s ease-in;
+  font-size: 20px;
+  border: 0;
 
   &:hover {
     background: #3672A3;
